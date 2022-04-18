@@ -24,7 +24,7 @@ begin
     begin
         if rising_edge(clk_i) then
             if ena_i = '1' then
-                addr_aux := addr_aux + to_integer(unsigned(I_i)) + 1 ;
+                addr_aux := addr_aux + to_integer(unsigned(I_i));
                 if addr_aux >= (2**N_RCF) then 
                     addr_aux := addr_aux -(2**N_RCF);
                 end if;
