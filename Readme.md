@@ -4,7 +4,7 @@
 
 Se diseñó un oscilador de onda senoidal controlado numéricamente al cual se le puede ajustar la frecuencia y la amplitud de salida para funcionar en la placa de desarrollo de Xilinx Arty Z7-10.
 
- ### Descripcion de los archivos:
+ ### Descripcion de los archivos Fuentes:
 
  - RCF.vhd: Bloque registro control de frecuencia.
  - att.vhd: Bloque de atenuacion.
@@ -12,3 +12,12 @@ Se diseñó un oscilador de onda senoidal controlado numéricamente al cual se l
  - NCO.vhd: Programa principal donde se instancias los 3 componentes anteriores.
  - NCO_tb.vhd: Banco de prueba para el NCO.vhd
  - NCO_IP: Se montó junto al NCO un VIO y un ILA para probar el dispositivo
+
+ ### Documentacion
+
+ - Informe
+ - Presentacion
+
+ ### Simulacion
+
+ - Script para simular con GTKWave
